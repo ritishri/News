@@ -1,0 +1,60 @@
+.navbar{
+    background-color: olive;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    outline: none;
+  }
+  
+  .navbar-nav .nav-item select option {
+    color: black; 
+  }
+  
+
+.dark-mode-btns{
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+}
+.dark-mode-btns:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  .pagination button {
+    margin: 0 0.25rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .pagination button.active {
+    font-weight: bold;
+    background-color: olive;
+    color: #fff;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+  }
+  
